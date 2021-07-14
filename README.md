@@ -187,7 +187,7 @@
 
 27. [跟谁学]commonjs esmodule的区别
 
-28. 【跟谁学】[闭包实现加法器](./javascript/闭包实现加法器.js)
+28. 
 
 29. [完美世界]object.defineproperty 和 proxy 的区别 
 
@@ -210,13 +210,27 @@
 
 36. [var let const 的理解](./javascript/var let const 的理解.md)
 
-37. 数组的去重，尽可能多方法
+37. 
 
 38. 如果有一个大的数组，都是整型，怎么找出最大的前10个数
 
 39. 创建ajax的过程
 
 40. 渐进增强和优雅降级
+
+41. [如何将字符串转化为数字？](./javascript/字符串转数字.md)
+
+42. Js原型、原型链？有什么特点？
+
+### 手写题
+
+1. [写一个function,清除字符串前后的空格](./javascript/清除字符串前后的空格.js)
+2. [不用loop循环，创建一个长度为100的数组，并且每个元素的值等于他的下标](./javascript/不用loop循环，创建一个长度为100的数组，并且每个元素的值等于他的下标.md)
+3. 实现数组拍平
+4. 数组的去重，尽可能多方法
+5. [闭包实现加法器](./javascript/闭包实现加法器.js)
+
+
 
 ## CSS 部分
 
@@ -240,6 +254,9 @@
 18. [用CSS3布局的伪类选择器实现下图效果](./css/用CSS3布局的伪类选择器实现下图效果.md)
     ![效果实现](./css/效果实现.png)
 19. [position的值，relative和absolute分别是相对于谁进行定位的？](./css/relative和absolute分别是相对于谁进行定位的.md)
+20. 实现元素水平垂直居中
+21. 如何用css 实现一个三角形
+22. [什么是外边距合并？](./css/外边距合并.md)
 
 ## HTML
 
@@ -247,6 +264,11 @@
 2. [对h5的理解](./html/对h5的理解.md)
 3. [回流与重绘](./html/回流与重绘.md)
 4. [左边宽度固定，右边自适应](./html/左边宽度固定，右边自适应.html)
+5. [label 的作用是什么？是怎么用的?](./html/label.md)
+6. [已知ID的input输入框，希望获取这个输入框的输入值，怎么做?](./html/已知ID的input输入框，希望获取这个输入框的输入值.md)
+7. [为什么最好把 CSS 的 `<link>` 标签放在 `<head></head>` 之间？为什么最好把 JS 的 `<script>` 标签恰好放在 `</body>` 之前，有例外情况吗？](./html/为什么最好把CSS的link标签放在head之间？为什么最好把JS的script标签最好放在body之后，有例外的情况吗.md)
+8. [简述一下你对 HTML 语义化的理解？](./html/对语义化标签的理解.md)
+9. [什么是渐进式渲染（progressive rendering）](./interview/html/渐进式渲染.md)
 
 ## HTTP
 
@@ -345,3 +367,4 @@
 
 - https://www.kancloud.cn/pillys/qianduan/2049476
 - https://juejin.cn/post/6940945178899251230#heading-1
+- https://github.com/yisainan/web-interview
