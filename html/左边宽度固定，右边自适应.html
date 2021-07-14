@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>左边宽度固定，右边自适应</title>
+    <style>
+      /* 方法一： 左position:absolute, 右margin-left */
+      /* #parent {
+        position: relative;
+      }
+      #l-child {
+        background-color: #ddd;
+        width: 100px;
+        position: absolute;
+      }
+      #r-child {
+        background-color: #eee;
+        margin-left: 100px;
+      } */
+      /* 方法二：左边float，触发父元素宽度计算 */
+      /* #parent {
+        overflow: hidden;
+      }
+      #l-child {
+        background-color: #ddd;
+        width: 100px;
+        float: left;
+      }
+      #r-child {
+        background-color: #eee;
+        margin-left: 100px;
+      } */
+      /* 方法三： flex */
+      #parent {
+        display: flex;
+        /* flex: 1 1; */
+      }
+      #l-child {
+        flex: 0 0 100px;
+        background-color: #ddd;
+      }
+      #r-child {
+        background-color: #eee;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="parent">
+      <div id="l-child">l-child</div>
+      <div id="r-child">r-child</div>
+    </div>
+  </body>
+</html>
