@@ -159,7 +159,7 @@
 
 13. 请说一下Promise的内部实现方式
 
-14. [完美世界]请介绍一下消息队列和event loop
+14. [请介绍一下消息队列和event loop](/javascript/请介绍一下消息队列和event loop.md)
 
 15. 如何继承
 
@@ -169,7 +169,7 @@
 
 18. 修饰器是什么，是如何工作的
 
-19. [滴滴]说一下js的数据类型，如何判断数据类型
+19. [说一下js的数据类型，如何判断数据类型](./javascript/数据类型.md)
 
 20. [滴滴]如何判断一个对象是否属于某个类
 
@@ -242,11 +242,13 @@
 
 52. map和object的区别
 
-53. 常用的微任务
+53. 拷贝一个很多嵌套的对象怎么实现？
 
 54. 常用的ES6方法
 
 55. 2020更新的ES6方法
+
+56. [实现一个instanceof](./javascript/instanceof.md)
 
 
 
@@ -262,7 +264,7 @@
 8. [阿里]top、left是相对于padding还是border
 9. [阿里]flex布局的使用及在平时中哪些时候会用到 
 10. [阿里]display:none和visibility:hidden的区别 
-11. [阿里]清除浮动的方法
+11. [清除浮动的方法有哪些](./css/清除浮动的方法.md)
 12. [阿里] ::before和:after中双冒号和单冒号有什么区别 
 13. [阿里]1像素边框在移动端的实现
 14. [阿里]rem和em区别及使用方法 
@@ -272,7 +274,7 @@
 18. [用CSS3布局的伪类选择器实现下图效果](./css/用CSS3布局的伪类选择器实现下图效果.md)
     ![效果实现](./css/效果实现.png)
 19. [position的值，relative和absolute分别是相对于谁进行定位的？](./css/relative和absolute分别是相对于谁进行定位的.md)
-20. 实现元素水平垂直居中
+20. [实现元素水平垂直居中](./css/实现元素水平垂直居中.md)
 21. 如何用css 实现一个三角形
 22. [什么是外边距合并？](./css/外边距合并.md)
 23. 实现一个带边框的扇形
@@ -294,7 +296,7 @@
 
 ## HTTP
 
-1. 说下你知道的HTTP状态码并说出它们的出现场景
+1. [说下你知道的HTTP状态码并说出它们的出现场景](./http/HTTP状态码.md)
 2. [腾讯视频]http2.0的优势
 3. [http和https的区别](./http/http和https的区别.md)
 
@@ -332,12 +334,15 @@
 7. [B站]react 怎么根据 state 和 props 的变化去更新 dom 树的
 8. [将React中的10个生命周期函数，分别按照前后调用顺序写出来，并且将参数罗列出来，以及通常所做的优化](./react/将React中的10个生命周期函数，分别按照前后调用顺序写出来，并且将参数罗列出来，以及通常所做的优化)
 9. 如何避免组件重新渲染
-10. 对useCallback是怎么理解的
-11. 怎么理解useCallback中的return
-12. 为什么说虚拟dom可以提高性能
-13. purecomponent 和 hooks 有啥区别
-14. [react性能优化方案](./react/react性能优化.md)
-15. 如何自己实现一个mini 的react-redux
+10. 
+11. 为什么说虚拟dom可以提高性能
+12. purecomponent 和 hooks 有啥区别
+13. [react性能优化方案](./react/react性能优化.md)
+14. 如何自己实现一个mini 的react-redux
+15. https://www.icode9.com/content-4-1048139.html
+17. [useState和setState区别](./react/useState和setState区别.md)
+17. [hook如何模拟组件生命周期](./react/hook模拟生命周期.md)
+18. [说一下常用的hook](./react/常用的hook.md)
 
 ## 小程序
 

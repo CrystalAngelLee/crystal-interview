@@ -20,6 +20,10 @@
 
 4. 添加key属性标识组件
 
+5. useCallback() 缓存函数
+
+6. React.memo()
+
 
 
 参考资料：

@@ -1,5 +1,7 @@
 # 用CSS3布局的伪类选择器实现下图效果
 
+![效果实现](./效果实现.png)
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
