@@ -187,7 +187,7 @@
 
 27. [跟谁学]commonjs esmodule的区别
 
-28. 
+28. [说几个常用的ES6方法](./javascript/ES6.md)
 
 29. [完美世界]object.defineproperty 和 proxy 的区别 
 
@@ -210,7 +210,7 @@
 
 36. [var let const 的理解](./javascript/var let const 的理解.md)
 
-37. 
+37. [实现一个instanceof](./javascript/instanceof.md)
 
 38. 如果有一个大的数组，都是整型，怎么找出最大的前10个数
 
@@ -220,7 +220,7 @@
 
 41. [如何将字符串转化为数字？](./javascript/字符串转数字.md)
 
-42. 
+42. 拷贝一个很多嵌套的对象怎么实现？
 
 43. [写一个function,清除字符串前后的空格](./javascript/清除字符串前后的空格.js)
 
@@ -241,16 +241,6 @@
 51. set 实现去重的原理
 
 52. map和object的区别
-
-53. 拷贝一个很多嵌套的对象怎么实现？
-
-54. 常用的ES6方法
-
-55. 2020更新的ES6方法
-
-56. [实现一个instanceof](./javascript/instanceof.md)
-
-
 
 ## CSS 部分
 
@@ -280,7 +270,7 @@
 23. 实现一个带边框的扇形
 24. 居中为什么用transform而不用其他的呢
 25. 做一个进度条：为什么用动画比直接改变长宽更好呢
-26. 
+26. [如何绘制一个球](./css/绘制一个球.md)
 
 ## HTML
 
@@ -299,6 +289,7 @@
 1. [说下你知道的HTTP状态码并说出它们的出现场景](./http/HTTP状态码.md)
 2. [腾讯视频]http2.0的优势
 3. [http和https的区别](./http/http和https的区别.md)
+4. [说一下协商缓存和强制缓存](./http/协商缓存和强制缓存.md)
 
 ## Webpack 部分
 
@@ -326,23 +317,50 @@
 ## React部分
 
 1. [跟谁学]为什么选择react/vue 及二者差别
+
 2. [跟谁学]react-router实现原理 hash/history 如何跳转不刷新 nginx如何配置跨域
+
 3. [跟谁学]purecomponent优势
+
 4. [腾讯视频]react setState 实现
+
 5. [B站]react fiber算法原理及实现
+
 6. [B站]react 子组件与父组件如何通信
+
 7. [B站]react 怎么根据 state 和 props 的变化去更新 dom 树的
+
 8. [将React中的10个生命周期函数，分别按照前后调用顺序写出来，并且将参数罗列出来，以及通常所做的优化](./react/将React中的10个生命周期函数，分别按照前后调用顺序写出来，并且将参数罗列出来，以及通常所做的优化)
+
 9. 如何避免组件重新渲染
-10. 
-11. 为什么说虚拟dom可以提高性能
-12. purecomponent 和 hooks 有啥区别
-13. [react性能优化方案](./react/react性能优化.md)
-14. 如何自己实现一个mini 的react-redux
-15. https://www.icode9.com/content-4-1048139.html
+
+10. [hooks 的缺点有哪些](./react/hooks的优缺点.md)
+
+11. [使用hooks实现自定义hooks, 一个计算组件从挂载到卸载的时间](./react/挂载到卸载的时间.md)
+
+12. 为什么说虚拟dom可以提高性能
+
+13. purecomponent 和 hooks 有啥区别
+
+14. [react性能优化方案](./react/react性能优化.md)
+
+15. 如何自己实现一个mini 的react-redux
+
+16. https://www.icode9.com/content-4-1048139.html
+
 17. [useState和setState区别](./react/useState和setState区别.md)
-17. [hook如何模拟组件生命周期](./react/hook模拟生命周期.md)
-18. [说一下常用的hook](./react/常用的hook.md)
+
+18. [hook如何模拟组件生命周期](./react/hook模拟生命周期.md)
+
+19. [说一下常用的hook](./react/常用的hook.md)
+
+    
+
+## TypeScript
+
+1. 说一下你对泛型的理解
+
+2. TypeScript支持哪些面向对象术语
 
 ## 小程序
 
