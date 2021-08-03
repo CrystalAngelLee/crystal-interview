@@ -97,21 +97,7 @@
    console.log("Q");
    ```
 
-10. [有赞|B站][实现 debounce](/javascript/实现%20debounce.js)
-
-    ```js
-    const a = {
-      name: 'test-debounce',
-      log: debounce(function (a) {
-          console.log('test')
-          console.log(this.name)
-          console.log(a)
-      }, 100)
-    }
-    
-    // a.log()
-    // a.log(123) /'test' 'test-debounce' 123
-    ```
+10. [实现节流/防抖函数](./javascript/JS节流与防抖.md)
 
 11. [有赞]将一个json数据的所有key从下划线改为驼峰
 
@@ -187,7 +173,7 @@
 
 27. [跟谁学]commonjs esmodule的区别
 
-28. [说几个常用的ES6方法](./javascript/ES6.md)
+28. [说几个常用的ES6方法](./javascript/ES新特性.md)
 
 29. [完美世界]object.defineproperty 和 proxy 的区别 
 
@@ -226,7 +212,7 @@
 
 44. [不用loop循环，创建一个长度为100的数组，并且每个元素的值等于他的下标](./javascript/不用loop循环，创建一个长度为100的数组，并且每个元素的值等于他的下标.md)
 
-45. 实现数组拍平
+45. [如何实现数组扁平化](./javascript/数组扁平化.md)
 
 46. 数组的去重，尽可能多方法
 
@@ -241,6 +227,18 @@
 51. set 实现去重的原理
 
 52. map和object的区别
+
+53. js继承有哪些方式 es6和es5的继承的区别
+
+54. class的实现原理
+
+55. 数组的哪些遍历方法可中断
+
+56. 说一说闭包
+
+57. 代码执行过程中的内存分配
+
+    
 
 ## CSS 部分
 
@@ -317,50 +315,32 @@
 ## React部分
 
 1. [跟谁学]为什么选择react/vue 及二者差别
-
 2. [跟谁学]react-router实现原理 hash/history 如何跳转不刷新 nginx如何配置跨域
-
 3. [跟谁学]purecomponent优势
-
 4. [腾讯视频]react setState 实现
-
 5. [B站]react fiber算法原理及实现
-
 6. [B站]react 子组件与父组件如何通信
-
 7. [B站]react 怎么根据 state 和 props 的变化去更新 dom 树的
-
-8. [将React中的10个生命周期函数，分别按照前后调用顺序写出来，并且将参数罗列出来，以及通常所做的优化](./react/将React中的10个生命周期函数，分别按照前后调用顺序写出来，并且将参数罗列出来，以及通常所做的优化)
-
+8. [说说react类组件的生命周期](./react/react类组件的生命周期.md)
 9. 如何避免组件重新渲染
-
 10. [hooks 的缺点有哪些](./react/hooks的优缺点.md)
-
 11. [使用hooks实现自定义hooks, 一个计算组件从挂载到卸载的时间](./react/挂载到卸载的时间.md)
-
-12. 为什么说虚拟dom可以提高性能
-
+12. [为什么说虚拟dom可以提高性能](./react/虚拟Dom如何提升性能.md)
 13. purecomponent 和 hooks 有啥区别
-
 14. [react性能优化方案](./react/react性能优化.md)
-
 15. 如何自己实现一个mini 的react-redux
-
 16. https://www.icode9.com/content-4-1048139.html
-
 17. [useState和setState区别](./react/useState和setState区别.md)
-
 18. [hook如何模拟组件生命周期](./react/hook模拟生命周期.md)
-
 19. [说一下常用的hook](./react/常用的hook.md)
-
-    
+20. [说一下你理解的虚拟dom](./react/虚拟DOM.md)
+21. 说一下react是如何进行diff的
 
 ## TypeScript
 
 1. 说一下你对泛型的理解
-
 2. TypeScript支持哪些面向对象术语
+3. [怎么获取一个函数的参数的类型](./typescript/获取一个函数的参数的类型.md)
 
 ## 小程序
 
