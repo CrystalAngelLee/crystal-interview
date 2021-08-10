@@ -1,3 +1,14 @@
+https://flaviocopes.com/ecmascript/
+
+https://juejin.cn/post/6844903959283367950#heading-49
+
+https://ecmascriptfeatures.online/#es9
+
+https://dev.to/carlillo/es2018-features-with-simple-examples-5eef
+
+http://caibaojian.com/es6
+https://www.ecma-international.org/
+
 # [ES2021-5](https://dev.to/carlillo/es2021-features-with-simple-examples-27d3)
 
 ##  [String.prototype.replaceAll](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll)
@@ -192,17 +203,33 @@ JSON.stringify('a\u20ACb')
 
 
 
-# ES2015
+# [ES2015](https://ecmascriptfeatures.online/#es6)
 
-## 声明
+> https://es6.ruanyifeng.com/
 
-### let、const 
+## [const](https://www.w3schools.com/js/js_const.asp)
 
-扩展问题：
+## [let](https://www.w3schools.com/js/js_let.asp)
 
-var、let、const的区别
+## [block-level function declaration](https://stackoverflow.com/questions/35909072/in-es6-what-is-new-spec-block-level-function-declaration-mean)
 
-## 解构赋值
+## [default function parameters](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Functions/Default_parameters)
+
+`function doSomething(a, b = 'b') {...`
+
+## [rest parameter](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Functions/rest_parameters)
+
+> 剩余参数
+
+`function f(a, b, ...rest) {...`
+
+## [spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+
+> 展开语法
+
+`let arr = [1, 2]; console.log(...arr);`
+
+## [解构](https://exploringjs.com/es6/ch_destructuring.html)
 
 **字符串解构**
 
@@ -232,6 +259,49 @@ var、let、const的区别
 
 - 数组解构：`function Func([x = 0, y = 1]) {}`
 - 对象解构：`function Func({ x = 0, y = 1 } = {}) {}`
+
+## [enhanced object literals](https://www.sitepoint.com/es6-enhanced-object-literals/)
+
+`let o = {a: 1, ['b' + 1]: 3};`
+
+## [for...of](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/for...of)
+
+`for (const value of [3, 2, 1]) {...`
+
+## 二进制和八进制字面量
+
+`let bin = 0b110; let oct = 0o77;`
+
+## 模版字符串
+
+模板字符串为构造字符串提供了语法糖。
+
+```js
+// 创建基本的字符串
+`This is a pretty little template string.`
+
+// 多行字符串
+`In ES5 this is
+ not legal.`
+
+// 插入变量绑定的值
+var name = "Bob", time = "today";
+`Hello ${name}, how are you ${time}?`
+
+// Unescaped template strings
+String.raw`In ES5 "\n" is a line-feed.`
+
+// Construct an HTTP request prefix is used to interpret the replacements and construction
+GET`http://foo.org/bar?a=${a}&b=${b}
+    Content-Type: application/json
+    X-Credentials: ${credentials}
+    { "foo": ${foo},
+      "bar": ${bar}}`(myOnReadyStateChangeHandler);
+```
+
+## [regexp sticky (y) and unicode (u) flags](https://ponyfoo.com/articles/regular-expressions-post-es6)
+
+`/ab/y.exec('ab ab');`
 
 ## 字符串扩展
 
@@ -320,12 +390,12 @@ var、let、const的区别
  **Math.atanh()**：返回n的反双曲正切
 
 
-## 4. 函数参数的改变
+## 函数参数的改变
 
 1. 可以传递参数默认值
 2. 解构剩余参数
 
-## 5. 箭头函数
+## [箭头函数](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
 1. 不会改变this指向
 2. 不能作为构造函数
@@ -345,16 +415,23 @@ var、let、const的区别
 
 > 比较两个对象是否相等
 
-## 7. Promise
+## Promise
 
 > 异步解决方案
 
+## [类 class](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Classes)
+
+ES2015 中的类（class）是在基于原型的面向对象模式上简单包装的语法糖。拥有一个 单一且方便的声明形式将更易于使用，并且 鼓励混合使用。类（class）支持基于原型的继承、super 调用、 实例和静态方法以及构造函数。
+
+## [super](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/super)
 
 
 
+## [generators](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Generator)
 
-参考： http://caibaojian.com/es6
-ecma官网： https://www.ecma-international.org/
+`function* generator(){yield 1; yield 2};`
 
+## [typed arrays](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Typed_arrays)
 
+## [type Map](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Map)
 
