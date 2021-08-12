@@ -270,36 +270,45 @@
 
 ## CSS 部分
 
-1. [小米]说一下css的三个特性并展开说一下应用场景
 2. [小米]说一下CSS七层层叠顺序
 3. [阿里]z-index的层级关系及css中的层叠上下文
-4. [阿里]尽量多的水平垂直居中，分是否已知道父子dom宽高的情况
-5. [阿里]如何触发BFC，以及用法和IFC区别
-6. [阿里]简单介绍下box-sizing属性 
-7. [[阿里]css优先级如何计算](/css/css优先级如何计算.md)
-8. [阿里]top、left是相对于padding还是border
-9. [阿里]flex布局的使用及在平时中哪些时候会用到 
-10. [display:none和visibility:hidden的区别 ](./css/display:none和visibility:hidden的区别.md)
-11. [清除浮动的方法有哪些](./css/清除浮动的方法.md)
-12. [阿里] ::before和:after中双冒号和单冒号有什么区别 
-13. [阿里]1像素边框在移动端的实现
-14. [阿里]rem和em区别及使用方法 
-15. [阿里]CSS中哪些属性可以继承？ 
-16. [阿里]CSS3动画的实现步骤 
-17. [请解释一下CSS3的flexbox(弹性盒布局模型)，以及应用场景](./css/CSS3的flexbox(弹性盒布局模型))
+4. [尽量多的水平垂直居中，分是否已知道父子dom宽高的情况](./css/实现元素水平垂直居中.md)
+4. [如何居中 div, 如何居中一个浮动元素](./css/如何居中 div, 如何居中一个浮动元素.md)
+5. [top、left是相对于padding还是border](./css/top、left是相对于padding还是border.md)
+6. [列出 display 的值并说明他们的作用](./css/列出 display 的值并说明他们的作用.md)
+7. [对 BFC 规范的理解](./css/BFC 规范.md)
+8. [阿里]如何触发BFC，以及用法和IFC区别
+9. [block，inline 和 inlinke-block 细节对比？](./css/block，inline 和 inlinke-block 细节对比.md)
+10. [请解释一下CSS3的flexbox(弹性盒布局模型)，以及应用场景](./css/CSS3的flexbox(弹性盒布局模型))
+11. [display:none和visibility:hidden的区别 ](./css/display:none和visibility:hidden的区别.md)
+12. [清除浮动的方法有哪些](./css/浮动.md)
+13. [解释下浮动和它的工作原理？清除浮动的技巧](./css/浮动.md)
+14. [阿里] ::before和:after中双冒号和单冒号有什么区别 
+15. [阿里]1像素边框在移动端的实现
+16. [阿里]rem和em区别及使用方法 
+17. [阿里]CSS3动画的实现步骤 
 18. [用CSS3布局的伪类选择器实现下图效果](./css/用CSS3布局的伪类选择器实现下图效果.md)
     ![效果实现](./css/效果实现.png)
 19. [position的值，relative和absolute分别是相对于谁进行定位的？](./css/relative和absolute分别是相对于谁进行定位的.md)
-20. [实现元素水平垂直居中](./css/实现元素水平垂直居中.md)
-21. 如何用css 实现一个三角形
-22. [什么是外边距合并？](./css/外边距合并.md)
-23. 实现一个带边框的扇形
-24. 居中为什么用transform而不用其他的呢
-25. 做一个进度条：为什么用动画比直接改变长宽更好呢
-26. [如何绘制一个球](./css/绘制一个球.md)
-27. [渐进增强和优雅降级](./css/渐进增强和优雅降级.md)
-28. [CSS3 新增伪类有那些？ ](./css/CSS3 新增伪类.md)
-29. [CSS3 有哪些新特性？ ](/css/CSS3新特性.md)
+20. 如何用css 实现一个三角形
+21. [什么是外边距合并？](./css/外边距合并.md)
+22. 实现一个带边框的扇形
+23. 居中为什么用transform而不用其他的呢
+24. 做一个进度条：为什么用动画比直接改变长宽更好呢
+25. [如何绘制一个球](./css/绘制一个球.md)
+26. [渐进增强和优雅降级](./css/渐进增强和优雅降级.md)
+27. [CSS3 新增伪类有那些？ ](./css/CSS3 新增伪类.md)
+28. [CSS3 有哪些新特性？ ](/css/CSS3新特性.md)
+29. [小米]说一下css的三个特性并展开说一下应用场景
+30. [CSS 有哪些基本选择器？他们的权重是如何表示的？](./css/CSS 有哪些基本选择器？他们的权重是如何表示的.md)
+31. [请你说说 CSS 选择器的类型有哪些，并举几个例子说明其用法？](./css/CSS 选择器.md)
+32. [选择符有哪些？哪些属性可以继承？](./css/选择符有哪些？哪些属性可以继承？.md)
+33. [请你说说 CSS 有什么特殊性?（优先级、计算特殊值）](./css/CSS 有什么特殊性?（优先级、计算特殊值）.md)
+34. [优先级算法如何计算？](./css/优先级算法如何计算.md)
+35. [解释一下 CSS 的盒子模型？ ](./css/CSS盒子模型.md)
+36. [简单介绍下box-sizing属性](./css/box-sizing.md)
+37. [CSS 中 link 和@import 的区别是](./css/CSS 中 link 和@import 的区别是.md)
+38. [position:absolute 和 float 属性的异同 ](./css/position:absolute 和 float 属性的异同 .md)
 
 ## HTML
 
@@ -314,7 +323,6 @@
 9. [简述一下你对 HTML 语义化的理解？](./html/语义化的理解.md)
 10. [什么是渐进式渲染（progressive rendering）](./interview/html/渐进式渲染.md)
 11. [Doctype 作用? 严格模式与混杂模式如何区分？它们有何意义? ](./html/Doctype 作用? 严格模式与混杂模式如何区分？它们有何意义? .md)
-12. 
 
 
 
