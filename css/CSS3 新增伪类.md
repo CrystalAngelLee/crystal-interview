@@ -20,7 +20,7 @@
 （9）elem:empty选中不包含子元素和内容的elem类型元素。
 
 （10）elem:target选择当前活动的elem元素。
-
+ 
 （11）:not(elem)选择非elem元素的每个元素。
 
 （12）:enabled 控制表单控件的禁用状态。

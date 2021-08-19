@@ -1,6 +1,6 @@
-**什么是BFC？**
+[**什么是BFC？**](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Block_formatting_context)
 
-BFC 全称为 块级格式化上下文（Block Fromatting Context），是Web页面的可视化CSS渲染出的一部分。它是块级盒布局出现的区域，也是浮动层元素进行交互的区域。简单的来说，它就是一种会影响元素与元素之间的位置、间距的属性。
+BFC 全称为 块级格式化上下文（Block Fromatting Context），是Web页面的可视化CSS渲染出的一部分。它是块级盒布局出现的区域，也是浮动层元素进行交互的区域。简单的来说，**它就是一种会影响元素与元素之间的位置、间距的属性**。
 
  
 
