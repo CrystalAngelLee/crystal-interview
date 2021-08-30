@@ -1,18 +1,10 @@
 # attribute 和 property 的区别是什么？
 
-1. attribute 会始终保持 html 代码中的初始值, 而 Property 是有可能变化的.
+attribute是dom元素在文档中作为html标签拥有的属性；
 
-2. 自定义：**attribute 可以** **property 不行**
+property就是dom元素在js中作为对象拥有的属性。
 
+所以：
 
-参考：https://juejin.cn/post/6844903712721387534
-
-
-
-- **property能够从attribute中得到同步**；
-- **attribute不会同步property上的值**；
-- attribute和property之间的数据绑定是单向的，attribute->property；
-- 更改property和attribute上的任意值，都会将更新反映到HTML页面中；
-
-参考： https://www.cnblogs.com/elcarim5efil/p/4698980.html
+对于html的标准属性来说，attribute和property是同步的，是会自动更新的，但是对于自定义的属性来说，他们是不同步的，
 

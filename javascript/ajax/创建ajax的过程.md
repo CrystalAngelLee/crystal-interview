@@ -1,6 +1,6 @@
 # 创建Ajax的过程
 
-1. 创建 `XMLHttpRequest` 对象
+1. 创建 `XMLHttpRequest` 对象,也就是创建一个异步调用对象
 2. 创建 `HTTP` 请求：指定请求的方法、url、是否异步
 3. 设置响应`HTTP`请求状态变化的回调函数
 4. 发送 `HTTP` 请求

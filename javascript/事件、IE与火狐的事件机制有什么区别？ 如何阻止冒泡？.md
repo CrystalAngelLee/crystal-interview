@@ -22,3 +22,4 @@ Firefox 同时支持两种事件模型，也就是：事件冒泡和事件捕获
 
 `event.stopPropagation()`
 
+注意旧ie的方法 ev.cancelBubble = true ;

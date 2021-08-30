@@ -2,6 +2,18 @@
 
 React 16/17
 
+挂载阶段：
+
+constructor -> getDerivedStateFromProps -> render -> componentDidMount
+
+更新阶段：
+
+getDerivedStateFromProps -> sholdComponentUpdate -> render -> getSnapShotBeforeUpdate -> componentDidUpdate
+
+卸载阶段
+
+componentwillUnmount
+
 ```react
 class Comp extends React.Component {
   constructor(props) {

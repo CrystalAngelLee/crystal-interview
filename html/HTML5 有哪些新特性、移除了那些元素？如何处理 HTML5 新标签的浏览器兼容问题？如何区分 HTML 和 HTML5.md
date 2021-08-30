@@ -18,7 +18,9 @@
 
 **新的技术webworker, websocket**
 
+本地离线存储 localStorage 长期存储数据，浏览器关闭后数据不丢失；
 
+ sessionStorage 的数据在浏览器关闭后自动删除
 
 # HTML5 移除了那些元素
 
