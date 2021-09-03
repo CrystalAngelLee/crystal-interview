@@ -1,3 +1,11 @@
+https://kaiwu.lagou.com/course/courseInfo.htm?courseId=566#/detail/pc?id=5799
+
+https://juejin.cn/post/6844903870229905422
+
+https://mp.weixin.qq.com/s/oAlVmZ4Hbt2VhOwFEkNEhw
+
+https://mp.weixin.qq.com/s/_jAW4Z3VR-uW0AEnjHgAEw
+
 ## 什么是 Virtual DOM
 
 在 React 中，每个 DOM 对象都有一个对应的 Virtual DOM 对象，它是 DOM 对象的 JavaScript 对象表现形式，其实就是使用 JavaScript 对象来描述 DOM 对象信息，比如 DOM 对象的类型是什么，它身上有哪些属性，它拥有哪些子元素。

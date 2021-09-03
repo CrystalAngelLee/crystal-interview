@@ -168,53 +168,59 @@
 
 41. [说说你对 Promise 的理解](./javascript/Promise 的理解.md)
 
-42. [说说你对 AMD 和 Commonjs 的理解](./javascript/AMD 和 Commonjs 的理解.md)
+42. [介绍一下promise.all 方法](.javascript/ES6/Promis.all.md)
 
-43. [请解释什么是事件代理](./javascript/事件代理.md)
+43. [说说你对 AMD 和 Commonjs 的理解](./javascript/AMD 和 Commonjs 的理解.md)
 
-44. [事件、IE与火狐的事件机制有什么区别？ 如何阻止冒泡？ ](./javascript/事件、IE与火狐的事件机制有什么区别？ 如何阻止冒泡？.md)
+44. [请解释什么是事件代理](./javascript/事件代理.md)
 
-45. [异步加载和延迟加载](./javascript/异步加载和延迟加载.md)
+45. [事件、IE与火狐的事件机制有什么区别？ 如何阻止冒泡？ ](./javascript/事件、IE与火狐的事件机制有什么区别？ 如何阻止冒泡？.md)
 
-46. [defer 和 async ](./javascript/defer和async.md)
+46. [异步加载和延迟加载](./javascript/异步加载和延迟加载.md)
 
-47. [js 延迟加载的方式有哪些？]((./javascript/异步加载和延迟加载.md))
+47. [defer 和 async ](./javascript/defer和async.md)
 
-48. [栈和堆的区别](./javascript/栈和堆的区别.md)
+48. [js 延迟加载的方式有哪些？]((./javascript/异步加载和延迟加载.md))
 
-49. [写一个 mySetInterVal(fn, a, b),每间隔 a,a+b,a+2b 的时间，然后写一个myClear，停止上面的mySetInterVal](./javascript/mySetInterVal.md)
+49. [栈和堆的区别](./javascript/栈和堆的区别.md)
 
-50. [如何统计当前网页出现过多少种Html](./javascript/如何统计当前网页出现过多少种Html.md)
+50. [写一个 mySetInterVal(fn, a, b),每间隔 a,a+b,a+2b 的时间，然后写一个myClear，停止上面的mySetInterVal](./javascript/mySetInterVal.md)
 
-51. [请你谈谈Cookie的弊端](./javascript/请你谈谈Cookie的弊端.md)
+51. [如何统计当前网页出现过多少种Html](./javascript/如何统计当前网页出现过多少种Html.md)
 
-52. [哪些操作会造成内存泄漏？](./javascript/哪些操作会造成内存泄漏.md)
+52. [请你谈谈Cookie的弊端](./javascript/请你谈谈Cookie的弊端.md)
 
-53. [说一下V8的垃圾回收机制](./javascript/V8的垃圾回收机制.md)
+53. [哪些操作会造成内存泄漏？](./javascript/哪些操作会造成内存泄漏.md)
 
-54. [如何删除一个 cookie](./javascript/如何删除一个 cookie.md)
+54. [说一下V8的垃圾回收机制](./javascript/V8的垃圾回收机制.md)
 
-55. [简单讲一讲 ES6 的一些新特性](./javascript/ES6 的一些新特性.md)
+55. [如何删除一个 cookie](./javascript/如何删除一个 cookie.md)
 
-56. Function 定义的函数 和 箭头函数是不是都能实现一个闭包【能】
+56. [简单讲一讲 ES6 的一些新特性](./javascript/ES6 的一些新特性.md)
 
-57. 描述一下map、set方法的特点以及区别
+57. [希望sdk是全局唯一的，让sdk1 和 sdk2 获得到的实例是同一个，怎么实现这个sdk](./javascript/希望sdk是全局唯一的，让sdk1 和 sdk2 获得到的实例是同一个，怎么实现这个sdk.md)
 
-58. set 实现去重的原理
+58. [实现Promise.all](./javascript/实现Promise.all.md)
 
-59. map和object的区别
+59. [说一下箭头函数和普通函数之间的区别](./javascript/箭头函数和普通函数之间的区别.md)
 
-60. class的实现原理
+60. [描述一下map、set方法的特点以及区别](./javascript/ES6/Map和Set.md)
 
-61. 数组的哪些遍历方法可中断
+61. [如何实现深拷贝](./javascript/深浅拷贝.md)
 
-62. 字符串反转实现
+62. 手写一个bind 函数
 
-63. 拷贝一个很多嵌套的对象怎么实现？
+63. 实现千分位分隔符函数
 
-64. 代码执行过程中的内存分配
+64. class的实现原理
 
-65. [有赞]将一个json数据的所有key从下划线改为驼峰
+65. 数组的哪些遍历方法可中断
+
+66. 字符串反转实现
+
+67. 代码执行过程中的内存分配
+
+68. [有赞]将一个json数据的所有key从下划线改为驼峰
 
     ```js
     function mapKeysToCamelCase(data) {
@@ -237,7 +243,7 @@
     // console.log(JSON.stringify(mapKeysToCamelCase(testData)))
     ```
 
-66. [有赞]将一天24小时按每半时小划分成48段，我们用一个位图表示选中的时间区间，
+69. [有赞]将一天24小时按每半时小划分成48段，我们用一个位图表示选中的时间区间，
 
     例如110000000000000000000000000000000000000000000000
 
@@ -258,53 +264,47 @@
     console.log(timeBitmapToRanges('111010000000000000000000000000000001100000000001'))
     ```
 
-67. 请说一下Promise的内部实现方式
+70. 请说一下Promise的内部实现方式
 
-68. 有哪几种异步解决方案
+71. 有哪几种异步解决方案
 
-69. loader中如何写入异步代码
+72. loader中如何写入异步代码
 
-70. 修饰器是什么，是如何工作的
+73. 修饰器是什么，是如何工作的
 
-71. [滴滴]如何判断一个对象是否属于某个类
+74. [滴滴]如何判断一个对象是否属于某个类
 
-72. [滴滴]new Promise构造函数的入参是什么？你在什么场景下会使用promise 
+75. [滴滴]new Promise构造函数的入参是什么？你在什么场景下会使用promise 
 
-73. [跟谁学]commonjs esmodule的区别
+76. [跟谁学]commonjs esmodule的区别
 
-74. [完美世界]object.defineproperty 和 proxy 的区别 
+77. [完美世界]object.defineproperty 和 proxy 的区别 
 
-75. 希望sdk是全局唯一的，让sdk1 和 sdk2 获得到的实例是同一个，怎么实现这个sdk
-           《单例模式》
     
-       ```js
-       const sdk1 = new sdk();
-       const sdk2 = new sdk();
-       ```
-    
-       function 的话第一次new 实例的时候将实例传到prototype变量里
-    
-       类的话使用static 定义一个静态值来存储变量
-    
-       在constructor里面去判断当前静态变量是否有值，有的话返回静态变量，没有的话返回新的实例
 
 ## TypeScript
 
 1. [说一下你对泛型的理解](https://www.tslang.cn/docs/handbook/generics.html)
+
 2. [TypeScript支持哪些面向对象术语](./typescript/TypeScript支持哪些面向对象术语.md)
+
 3. [怎么将一个type声明的类型转为可选](./typescript/怎么将一个type声明的类型转为可选.md)
+
 4. [怎么获取一个函数的参数的类型](./typescript/获取一个函数的参数的类型.md)
+
 5. [ts重载具体怎么写](./typescript/ts重载具体怎么写.md)
+
 6. [A是什么效果,类型约束达到的是什么效果](https://blog.csdn.net/weixin_43294560/article/details/107464378)
+
 7. [说说类型推断](https://www.tslang.cn/docs/handbook/type-inference.html)
+
 8. [常用的ts特性](./typescript/常用的ts特性.md)
+
 9. [typescript的extends了解么](./typescript/typescript的extends.md)
-10. TS中定义了类型，但是TS还是会把代码解析成JS，有没有可能TS中定义的很好，但是实际上运行的时候还是会出现类型错误
-11. 定义一个函数，函数的入参想要是string的话，函数返回类型为void，如果函数的入参是number的话，希望返回的类型为number
-    Extends
-12. 定义一个函数，入参为一个对象还有key，对象里有不同的type 类型值，要求返回key的value的类型
-    Key of
-13. 说说Typescripy和Javascript的区别？
+
+10. [定义一个函数，入参为一个对象还有key，对象里有不同的type 类型值，要求返回key的value的类型](./typescript/定义一个函数，入参为一个对象还有key，对象里有不同的type 类型值，要求返回key的value的类型.md)
+
+11. 说说Typescripy和Javascript的区别？
 
     
 
@@ -337,18 +337,20 @@
 36. [简单介绍下box-sizing属性](./css/box-sizing.md)
 37. [CSS 中 link 和@import 的区别是](./css/CSS 中 link 和@import 的区别是.md)
 38. [position:absolute 和 float 属性的异同 ](./css/position:absolute 和 float 属性的异同 .md)
-27. [小米]说一下CSS七层层叠顺序
-28. [阿里]z-index的层级关系及css中的层叠上下文
-29. 实现一个带边框的扇形
-30. 居中为什么用transform而不用其他的呢
-31. 做一个进度条：为什么用动画比直接改变长宽更好呢
-32. [小米]说一下css的三个特性并展开说一下应用场景
-33. 如何用css 实现一个三角形
-34. [阿里] ::before和:after中双冒号和单冒号有什么区别 
-35. [阿里]1像素边框在移动端的实现
-36. [阿里]rem和em区别及使用方法 
-37. [阿里]CSS3动画的实现步骤 
-38. [阿里]如何触发BFC，以及用法和IFC区别
+30. [less里边mixin和function的用法,区别](./css/less里边mixin和function的用法,区别.md)
+31. [画一条 0.5px 的线](./css/画一条 0.5px 的线.md)
+32. [小米]说一下CSS七层层叠顺序
+33. [阿里]z-index的层级关系及css中的层叠上下文
+34. 实现一个带边框的扇形
+35. 居中为什么用transform而不用其他的呢
+36. 做一个进度条：为什么用动画比直接改变长宽更好呢
+37. [小米]说一下css的三个特性并展开说一下应用场景
+38. 如何用css 实现一个三角形
+39. [阿里] ::before和:after中双冒号和单冒号有什么区别 
+40. [阿里]1像素边框在移动端的实现
+41. [阿里]rem和em区别及使用方法 
+42. [阿里]CSS3动画的实现步骤 
+43. [阿里]如何触发BFC，以及用法和IFC区别
 
 ## HTML
 
@@ -486,23 +488,25 @@
 7. [hook如何模拟组件生命周期](./react/hook模拟生命周期.md)
 8. [说一下常用的hook](./react/常用的hook.md)
 9. [说一下你理解的虚拟dom](./react/虚拟DOM.md)
-10. 对react高阶组件的设计模式的了解 
+10. [对react高阶组件的设计模式的了解](./react/高阶组件的设计模式.md)
 11. [React 本身哪些是高阶组件](./react/React 本身哪些是高阶组件.md)
 12. [和memo类似功能的API](./react/和memo类似功能的API.md)
 13. [实现一个counter 函数组件,可受控&可非受控](./react/实现一个counter 函数组件,可受控&可非受控.md)
-14. react中的setState是同步还是异步还是？
-15. [跟谁学]为什么选择react/vue 及二者差别
-16. [跟谁学]react-router实现原理 hash/history 如何跳转不刷新 nginx如何配置跨域
-17. [跟谁学]purecomponent优势
-18. [腾讯视频]react setState 实现
-19. [B站]react fiber算法原理及实现
-20. [B站]react 子组件与父组件如何通信
-21. [B站]react 怎么根据 state 和 props 的变化去更新 dom 树的
-22. 如何避免组件重新渲染
-23. purecomponent 和 hooks 有啥区别
-24. 如何自己实现一个mini 的react-redux
-25. https://www.icode9.com/content-4-1048139.html
-26. 说一下react是如何进行diff的
+14. [react中的setState是同步还是异步还是？](./react/react中的setState是同步还是异步还是.md)
+15. [讲一下虚拟DOM](./react/虚拟DOM.md)
+16. [key 的作用是什么](./react/key 的作用是什么.md)
+17. [跟谁学]为什么选择react/vue 及二者差别
+18. [跟谁学]react-router实现原理 hash/history 如何跳转不刷新 nginx如何配置跨域
+19. [跟谁学]purecomponent优势
+20. [腾讯视频]react setState 实现
+21. [B站]react fiber算法原理及实现
+22. [B站]react 子组件与父组件如何通信
+23. [B站]react 怎么根据 state 和 props 的变化去更新 dom 树的
+24. 如何避免组件重新渲染
+25. purecomponent 和 hooks 有啥区别
+26. 如何自己实现一个mini 的react-redux
+27. https://www.icode9.com/content-4-1048139.html
+28. 说一下react是如何进行diff的
 
 ## 小程序
 
@@ -547,7 +551,7 @@
 8. [如何写一个大数阶乘？递归的方法会出现什么问题?](./算法/如何写一个大数阶乘？递归的方法会出现什么问题.md)
 9. [合并二维有序数组成一维有序数组，归并排序的思路](./算法/合并二维有序数组成一维有序数组，归并排序的思路.md)
 10. 斐波那契数列
-11. [小米]手写翻转二叉树 
+11. [手写翻转二叉树](./算法/树/翻转二叉树.md)
 12. [小米]说下归并排序的思路和应用场景
 
 ## 其他

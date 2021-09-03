@@ -50,8 +50,6 @@
 
 15. 数组遍历的方式 findIndex找不到返回-1 find 找不到返回undefined
 
-16. 实现一个深拷贝 JSON.parse的缺点 怎么处理深拷贝的循环引用问题
-
 17. 箭头函数和bind(this)的区别,哪个性能好?为什么
 
     https://juejin.cn/post/6844903892736557064#heading-2
@@ -59,26 +57,6 @@
 18. this绑定方式,区别?
 
 19. 数组哪些循环是可以中断的
-
-21. new Set()转数组有哪些方式
-
-    https://blog.csdn.net/qq_41813695/article/details/84582766
-
-22. 深浅拷贝分别怎么实现 浅拷贝除了扩展运算符还有其他什么方式 JSON.parse(JSON.stringify())对函数,日期等类型的处理结果 undefined还是会忽略掉?
-
-    https://muyiy.cn/blog/4/4.1.html
-
-    > 1、会忽略 `undefined`
-    >
-    > 2、会忽略 `symbol`
-    >
-    > 3、不能序列化函数,会忽略
-    >
-    > 4、不能解决循环引用的对象,会报错
-    >
-    > 5、不能正确处理`new Date()`,转换结果不正确,解决方法转成字符串或者时间戳就好了
-    >
-    > 6、不能处理正则
 
 23. setTimeout 0为什么会有延迟
 
@@ -112,59 +90,11 @@
 
     https://juejin.cn/post/6844903603266650125
 
-31. 拷贝数组有哪些方式
-
-32. JSON.parse JSON.stringify的缺陷
-
-    > 1、会忽略 `undefined`
-    >
-    > 2、会忽略 `symbol`
-    >
-    > 3、不能序列化函数
-    >
-    > 4、不能解决循环引用的对象
-    >
-    > 5、不能正确处理`new Date()`
-    >
-    > 6、不能处理正则
-
-33. 实现Promise.all
-
-    https://juejin.cn/post/6844904064820461576
-
-34. Promise.all 遇到异常最后返回结果是什么
-
-    https://blog.csdn.net/Elanenrich123/article/details/88410933
-
-35. Promise有几种状态
-
-    > 1.初始化，状态：pending
-    >
-    > 2.当调用resolve(成功)，状态：pengding=>fulfilled
-    >
-    > 3.当调用reject(失败)，状态：pending=>rejected
-
-36. Map,Set了解么,怎么用
-
-    https://segmentfault.com/a/1190000022936727
-
-37. 箭头函数和普通函数的区别
-
 38. forEach map的区别
 
     https://juejin.cn/post/6844903593816883214
 
-39. 说说Promise.all race allsettled 怎么实现promise.allsettled 怎么捕获异常
-
-    [Promise.allSettled 的作用，如何自己实现 Promise.allSettled](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/480)
-
-    https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/130
-
-40. 实现promise,then,catch
-
 41. 说说aysc await
-
-42. 怎么实现深拷贝
 
 43. 说说eventLoop 宏任务和微任务的区别
 
@@ -216,8 +146,6 @@
 
     [前端模块化发展史](https://www.jianshu.com/p/6332cb0f3d7f)
 
-49. 执行多个promise,按顺序输出对应的结果
-
 50. this绑定有哪些
 
     https://muyiy.cn/blog/3/3.1.html
@@ -225,8 +153,6 @@
 51. 实时显示日期时间并格式化
 
 52. 有一个li列表,实现点击打印出当前点击的li序号
-
-53. 深浅拷贝的特点
 
 54. 项目中用到哪些设计模式 观察者模式和发布订阅模式的区别
 
@@ -310,25 +236,10 @@
 
    [如何理解回流和重绘](https://github.com/LuckyWinty/fe-weekly-questions/issues/13)
 
-7. BFC了解么,有什么作用,用来解决什么问题,除了BFC之外,还有哪些布局
-
-   https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&mid=2247484371&idx=1&sn=36f7e8e71c8deaea482b0d28a5ffb882&chksm=fa2be33acd5c6a2c8b83729c196a3488ea48f2702c0032b5bde6d371f6cb836e87e48cccd6e7&mpshare=1&scene=1&srcid=&key=c333a3898be7f86f50b0cbf7cd0288e5a6dbd34eb78a4dff9c5033fb550c242d85448e60a686012d5d51e0745a7dc5e07a3d565c1589f48f46c8b8fabf68e2f65ee569f0defaacfd94f7f8090c139713&ascene=14&uin=MTYxNDYxMzg4&devicetype=Windows+10&version=62060833&lang=zh_CN&pass_ticket=jsgDdvHxcrj0G7BrQGjvAnhF6%2FwjUM%2FgqYs21GA3jAc%3D
-
-   [说一下你对CSS 中的 BFC的理解](https://github.com/LuckyWinty/fe-weekly-questions/issues/36)
-
-   [介绍下 BFC、IFC、GFC 和 FFC](https://github.com/LuckyWinty/fe-weekly-questions/issues/83)
-
 8. 水平垂直居中
 
    https://juejin.cn/post/6844903799446831117
 
-9. 实现双飞翼布局
-
-   https://blog.csdn.net/qq_38128179/article/details/86542447
-
-10. 实现圣杯布局
-
-https://mp.weixin.qq.com/s/3A1j8ah3CXC3g1BcUy85sw
 
 1. css实现右箭头
 
@@ -355,10 +266,6 @@ https://mp.weixin.qq.com/s/3A1j8ah3CXC3g1BcUy85sw
    https://juejin.cn/post/6844903894313598989#heading-24
 
 7. a标签有哪几种伪类
-
-8. less里边mixin和function的用法,区别
-
-   https://blog.csdn.net/weixin_34146986/article/details/91430581
 
 9. z-index高的元素反而显示在底下,可能是什么原因
 
@@ -448,12 +355,6 @@ https://mp.weixin.qq.com/s/3A1j8ah3CXC3g1BcUy85sw
 
 9. useRef用过么，useCallback有什么用，原理分别是什么，有什么区别
 
-10. react中key的作用,不写会怎样,key可以写索引吗
-
-    [写 React / Vue 项目时为什么要在列表组件中写 key，其作用是什么](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/1)
-
-    [深入解析为什么 key 是必须的](https://zh-hans.reactjs.org/docs/reconciliation.html#recursing-on-children)
-
 11. react的数据绑定怎么实现的
 
     https://www.cnblogs.com/wzy0526/p/9361228.html
@@ -470,25 +371,9 @@ https://mp.weixin.qq.com/s/3A1j8ah3CXC3g1BcUy85sw
 
     https://www.jianshu.com/p/48e06fb4a7a6
 
-14. 高阶组件的实现方式
+13. 高阶组件的实现方式
 
-15. setState什么时候异步 什么时候同步
-
-    https://kaiwu.lagou.com/course/courseInfo.htm?courseId=566#/detail/pc?id=5796
-
-    https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/17
-
-    https://segmentfault.com/a/1190000039417644
-
-16. 说下虚拟dom
-
-    https://kaiwu.lagou.com/course/courseInfo.htm?courseId=566#/detail/pc?id=5799
-
-    https://juejin.cn/post/6844903870229905422
-
-    https://mp.weixin.qq.com/s/oAlVmZ4Hbt2VhOwFEkNEhw
-
-    https://mp.weixin.qq.com/s/_jAW4Z3VR-uW0AEnjHgAEw
+    
 
 17. 什么时候会触发组件重新render ? State props context forceupdate
 
@@ -505,10 +390,6 @@ https://mp.weixin.qq.com/s/3A1j8ah3CXC3g1BcUy85sw
     https://juejin.cn/post/6885162791632633870
 
     https://blog.csdn.net/qq_39207948/article/details/113815277
-
-19. react自带高阶组件有哪些
-
-    [https://github.com/LinDaiDai/niubility-coding-js/blob/master/%E6%A1%86%E6%9E%B6-%E5%BA%93/React/HOC%E7%9C%9F%E7%9A%84%E5%B0%B1%E9%82%A3%E4%B9%88%E9%AB%98%E7%BA%A7%E5%90%97.md](https://github.com/LinDaiDai/niubility-coding-js/blob/master/框架-库/React/HOC真的就那么高级吗.md)
 
 20. react高阶组件和hooks组件有什么区别
 
@@ -563,10 +444,6 @@ https://mp.weixin.qq.com/s/3A1j8ah3CXC3g1BcUy85sw
     https://www.cnblogs.com/qianxiaox/p/14120253.html
 
     https://www.cnblogs.com/leslie1943/articles/13845114.html
-
-31. react的key的作用,为什么需要key,key为什么不能用index
-
-32. setState同步,异步
 
 33. diff原理 diff具体的比较方式有哪些
 
@@ -1578,16 +1455,6 @@ console.log(a)
   return res;
 }
 ```
-
-#### 提问
-
-1. 主要用什么技术栈
-2. 团队规模
-3. 这个岗位主要做什么的
-4. 工作强度,工作作息
-5. 这边主要做什么产品的
-6. 薪酬体系
-7. 这个岗位成长的空间
 
 #### 抄来的
 
