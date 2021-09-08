@@ -21,3 +21,5 @@ xhr.onreadystatechange = function() {
 
 
 
+异步对象的readyState 属性：该属性存有服务器响应的状态信息。每当readyState 改变时，onreadystatechange 函数就会被执行
+

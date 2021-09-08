@@ -674,3 +674,10 @@ export default class App extends Component {
    ```
    
    
+
+## 扩展问题
+
+### 为什么要使用PureComponent 和shouldComponentUpdate
+
+为了减少React自身比较，减少渲染次数
+

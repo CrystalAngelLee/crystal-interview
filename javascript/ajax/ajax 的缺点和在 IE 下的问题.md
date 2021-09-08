@@ -17,3 +17,4 @@
 1. 通过锚点来记录状态，location.hash。让浏览器记录Ajax请求时页面状态的变化。
 
 2. 通过HTML5的history.pushState，来实现浏览器地址栏的无刷新改变
+

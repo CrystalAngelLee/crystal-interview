@@ -13,7 +13,7 @@
 
 ### **说一下 Promise.race()**
 
-1. `Promise.all()`方法用于将多个 Promise 实例，包装成一个新的 Promise 实例
+1. `Promise.race()`方法用于将多个 Promise 实例，包装成一个新的 Promise 实例
 2. 接受一个数组作为参数, 如果不是 Promise 实例，就会先调用Promise.resolve()方法，将参数转为 Promise 实例，再进一步处理
 3. 一旦迭代器中的某个promise解决或拒绝，返回的 promise就会解决或拒绝
 

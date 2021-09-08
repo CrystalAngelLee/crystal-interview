@@ -30,3 +30,32 @@ func.bind(thisArg, param1, param2, ...)
 
 bind 虽然改变了 func 的 this 指向，但不是马上执行，而这两个（call、apply）是在改变了函数的 this 指向之后立马执行
 
+# 扩展问题
+
+call 和 apply的区别是什么，那个性能更好一些？
+
+call和apply都是改变this指向的，
+
+call传参是一个一个传进来的，apply是将所有以数组的形式传进来的
+
+Fn.call(obj, 10,20, 30) // 不固定到底有多少参数
+
+Fn.apply(obj, [10, 20, 30]);
+
+都是function上面的实例
+
+类似Bind 没有一开始将函数执行，只是预处理了this 
+
+传3个参数以内，性能差不多，超过三个的话call的性能要比apply好一些
+
+
+
+let arr = [10, 20, 30], obj={};
+
+Function fn(x, y, z) {}
+
+fn.apply(obj, arr)  // x=10 y=20 z=30
+
+fn.call(obj, arr);	// x=[10]
+
+fn.call(obj, ...arr); // 基于ES6 的展开运算符
