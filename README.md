@@ -166,7 +166,7 @@
 
 40. [call()和 apply() 的区别和作用](./javascript/call_apply_bind区别和作用.md)
 
-41. [说说你对 Promise 的理解](./javascript/Promise 的理解.md)
+41. [说说你对 Promise 的理解](./javascript/ES6/Promise 的理解.md)
 
 42. [介绍一下promise.all 方法](.javascript/ES6/Promis.all.md)
 
@@ -251,17 +251,19 @@
 
 68. [循环（数组的循环 object的循环）](./javascript/循环（数组的循环 object的循环）.md)
 
-69. 手写一个bind 函数
+69. 如何判断一个对象为空
 
-70. class的实现原理
+70. 手写一个bind 函数
 
-71. 数组的哪些遍历方法可中断
+71. class的实现原理
 
-72. 字符串反转实现
+72. 数组的哪些遍历方法可中断
 
-73. 代码执行过程中的内存分配
+73. 字符串反转实现
 
-74. [有赞]将一个json数据的所有key从下划线改为驼峰
+74. 代码执行过程中的内存分配
+
+75. [有赞]将一个json数据的所有key从下划线改为驼峰
 
     ```js
     function mapKeysToCamelCase(data) {
@@ -284,7 +286,7 @@
     // console.log(JSON.stringify(mapKeysToCamelCase(testData)))
     ```
 
-75. [有赞]将一天24小时按每半时小划分成48段，我们用一个位图表示选中的时间区间，
+76. [有赞]将一天24小时按每半时小划分成48段，我们用一个位图表示选中的时间区间，
 
     例如110000000000000000000000000000000000000000000000
 
@@ -305,21 +307,21 @@
     console.log(timeBitmapToRanges('111010000000000000000000000000000001100000000001'))
     ```
 
-76. 请说一下Promise的内部实现方式
+77. 请说一下Promise的内部实现方式
 
-77. 有哪几种异步解决方案
+78. 有哪几种异步解决方案
 
-78. loader中如何写入异步代码
+79. loader中如何写入异步代码
 
-79. 修饰器是什么，是如何工作的
+80. 修饰器是什么，是如何工作的
 
-80. [滴滴]如何判断一个对象是否属于某个类
+81. [滴滴]如何判断一个对象是否属于某个类
 
-81. [滴滴]new Promise构造函数的入参是什么？你在什么场景下会使用promise 
+82. [滴滴]new Promise构造函数的入参是什么？你在什么场景下会使用promise 
 
-82. [跟谁学]commonjs esmodule的区别
+83. [跟谁学]commonjs esmodule的区别
 
-83. [完美世界]object.defineproperty 和 proxy 的区别 
+84. [完美世界]object.defineproperty 和 proxy 的区别 
 
     
 
@@ -386,17 +388,18 @@
 31. [画一条 0.5px 的线](./css/画一条 0.5px 的线.md)
 32. [rem和em区别及使用方法](./css/rem和em.md)
 33. [说一下CSS模块化和CSS-in-js](./css/CSS预处理器和CSS模块化.md)
-34. [小米]说一下CSS七层层叠顺序
-35. [阿里]z-index的层级关系及css中的层叠上下文
-36. 实现一个带边框的扇形
-37. 居中为什么用transform而不用其他的呢
-38. 做一个进度条：为什么用动画比直接改变长宽更好呢
-39. [小米]说一下css的三个特性并展开说一下应用场景
-40. 如何用css 实现一个三角形
-41. [阿里] ::before和:after中双冒号和单冒号有什么区别 
-42. [阿里]1像素边框在移动端的实现
-43. [阿里]CSS3动画的实现步骤 
-44. [阿里]如何触发BFC，以及用法和IFC区别
+34. 如何绘制一个半圆
+35. [小米]说一下CSS七层层叠顺序
+36. [阿里]z-index的层级关系及css中的层叠上下文
+37. 实现一个带边框的扇形
+38. 居中为什么用transform而不用其他的呢
+39. 做一个进度条：为什么用动画比直接改变长宽更好呢
+40. [小米]说一下css的三个特性并展开说一下应用场景
+41. 如何用css 实现一个三角形
+42. [阿里] ::before和:after中双冒号和单冒号有什么区别 
+43. [阿里]1像素边框在移动端的实现
+44. [阿里]CSS3动画的实现步骤 
+45. [阿里]如何触发BFC，以及用法和IFC区别
 
 ## HTML
 
@@ -432,6 +435,7 @@
 30. [移动布局方案](./html/移动布局方案.md)
 31. [网络中使用最多的图片格式有哪些](./html/网络中使用最多的图片格式有哪些.md)
 32. [小米]说说重绘、重排、回流
+33. 浏览器是如何渲染页面的
 
 ## HTTP
 
@@ -551,18 +555,19 @@
 17. [redux 的数据流](./react/redux 的数据流.md)
 18. [fiber解决了什么问题](https://blog.csdn.net/weixin_44475093/article/details/119225148)
 19. [useEffect 和类组件的生命周期的类比](https://www.thinbug.com/q/57355814)
-20. [跟谁学]为什么选择react/vue 及二者差别
-21. [跟谁学]react-router实现原理 hash/history 如何跳转不刷新 nginx如何配置跨域
-22. [跟谁学]purecomponent优势
-23. [腾讯视频]react setState 实现
-24. [B站]react fiber算法原理及实现
-25. [B站]react 子组件与父组件如何通信
-26. [B站]react 怎么根据 state 和 props 的变化去更新 dom 树的
-27. 如何避免组件重新渲染
-28. purecomponent 和 hooks 有啥区别
-29. 如何自己实现一个mini 的react-redux
-30. https://www.icode9.com/content-4-1048139.html
-31. 说一下react是如何进行diff的
+20. 类组件和函数组件的区别
+21. [跟谁学]为什么选择react/vue 及二者差别
+22. [跟谁学]react-router实现原理 hash/history 如何跳转不刷新 nginx如何配置跨域
+23. [跟谁学]purecomponent优势
+24. [腾讯视频]react setState 实现
+25. [B站]react fiber算法原理及实现
+26. [B站]react 子组件与父组件如何通信
+27. [B站]react 怎么根据 state 和 props 的变化去更新 dom 树的
+28. 如何避免组件重新渲染
+29. purecomponent 和 hooks 有啥区别
+30. 如何自己实现一个mini 的react-redux
+31. https://www.icode9.com/content-4-1048139.html
+32. 说一下react是如何进行diff的
 
 ## 小程序
 
@@ -582,7 +587,6 @@
 1. [谈谈性能优化问题](./性能优化/性能优化.md)
 2. [什么是 FOUC（无样式内容闪烁）？你如何来避免 FOUC？](./性能优化/什么是 FOUC（无样式内容闪烁）？你如何来避免 FOUC？.md)
 3. [移动端性能优化相关经验](https://blog.csdn.net/tangxiujiang/article/details/79791545)
-4. 做了哪些前端性能优化，成果怎样
 5. [完美世界]首屏白屏的优化方案
 6. [完美世界]瀑布屏如何实现，以及如何优化
 7. [完美世界]当页面数据非常多，比如一直上拉加载，加载了很多的数据，页面性能会变差，如何优化
@@ -609,10 +613,11 @@
 9. [合并二维有序数组成一维有序数组，归并排序的思路](./算法/合并二维有序数组成一维有序数组，归并排序的思路.md)
 10. [实现千分位分隔符函数](./算法/千位分隔数.md)
 11. [薯队长带着小红薯参加密室逃脱团建游戏，首先遇到了反转游戏，小红薯们根据游戏提示收集了多个单词线索，并将单词按要求加一个空格组 成了句子，最终要求把句子按单词反转解密。 说明：收集的时候单词前后可能会有多个空格，反转后单词不能有多个空格](./算法/反转单词.md)
-12. 斐波那契数列
-13. [手写翻转二叉树](./算法/树/翻转二叉树.md)
-14. [小米]说下归并排序的思路和应用场景
-15. 使用 javascript 实现 filterSensitiveWord() 方法：敏感词过滤，将指定字符串中的敏感词替换为星号字符（*），参数有目标字符串input，敏感词列表sensitive，返回过滤后的字符串
+12. 判断子序列
+13. 斐波那契数列
+14. [手写翻转二叉树](./算法/树/翻转二叉树.md)
+15. [小米]说下归并排序的思路和应用场景
+16. 使用 javascript 实现 filterSensitiveWord() 方法：敏感词过滤，将指定字符串中的敏感词替换为星号字符（*），参数有目标字符串input，敏感词列表sensitive，返回过滤后的字符串
 
 ## 其他
 
@@ -658,8 +663,19 @@
 
 
 
+# hr 问题
+
+
+
+
+
+
+
 # 资料
 
 - https://www.kancloud.cn/pillys/qianduan/2049476
 - https://juejin.cn/post/6940945178899251230#heading-1
 - https://github.com/yisainan/web-interview
+
+
+

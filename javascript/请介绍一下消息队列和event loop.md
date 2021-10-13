@@ -25,3 +25,4 @@ JS 是单线程模式工作的（一个时间内只能做一件事），当有�
 常见的宏任务： setTimeout, setInterval…
 
 常见的微任务： promise.then, process.nextTick
+

@@ -1037,35 +1037,35 @@
 
 10. websocket用过么
 
-https://mp.weixin.qq.com/s/OKiVeiAtdZvSG5ZC8jYOzg
+    https://mp.weixin.qq.com/s/OKiVeiAtdZvSG5ZC8jYOzg
 
-https://blog.csdn.net/yexudengzhidao/article/details/92846600
+    https://blog.csdn.net/yexudengzhidao/article/details/92846600
 
-https://blog.csdn.net/resilient/article/details/85613446
+    https://blog.csdn.net/resilient/article/details/85613446
 
-1. memorycache和diskcache的区别
+11. memorycache和diskcache的区别
 
-2. 为什么要有协商缓存
+12. 为什么要有协商缓存
 
-3. 协商缓存中客户端给服务端通信时,Etag是通过哪个字段传递的
+13. 协商缓存中客户端给服务端通信时,Etag是通过哪个字段传递的
 
-4. 浏览器输入一个url地址后的过程,浏览器是怎么请求,解析资源文件的
+14. 浏览器输入一个url地址后的过程,浏览器是怎么请求,解析资源文件的
 
-   [浏览器输入URL后发生了什么](https://github.com/LuckyWinty/fe-weekly-questions/issues/37)
+    [浏览器输入URL后发生了什么](https://github.com/LuckyWinty/fe-weekly-questions/issues/37)
 
-5. 强缓存命中的状态码是? 200
+15. 强缓存命中的状态码是? 200
 
-6. 常见的接口响应状态码
+16. 常见的接口响应状态码
 
-7. 一次http请求过程是怎样的
+17. 一次http请求过程是怎样的
 
-8. ajax请求过程,原理
+18. ajax请求过程,原理
 
-9. TCP 连接上面能发多少个 HTTP 请求
+19. TCP 连接上面能发多少个 HTTP 请求
 
-   https://zhuanlan.zhihu.com/p/61423830
+    https://zhuanlan.zhihu.com/p/61423830
 
-   https://cloud.tencent.com/developer/article/1518678
+    https://cloud.tencent.com/developer/article/1518678
 
 #### GIT
 
