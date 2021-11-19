@@ -251,6 +251,27 @@
 
 68. [循环（数组的循环 object的循环）](./javascript/循环（数组的循环 object的循环）.md)
 
+69. [谈一谈下列两种写法的区别](./javascript/ES6/promise写法区别.md)
+
+    ```js
+    //第一种
+    promise.then((res) => {
+        console.log('then:', res);
+    }).catch((err) => {
+        console.log('catch:', err);
+    })
+    //第二种
+    promise.then((res) => {
+        console.log('then:', res);
+    }, (err) => {
+        console.log('catch:', err);
+    })
+    ```
+
+69. [查看代码分析结果并说出原因](./javascript/ES6/查看代码分析结果并说出原因.md)
+
+69. [分析代码在浏览器环境下的执行结果](./javascript/ES6/分析代码在浏览器环境下的执行结果.md)
+
 69. 如何判断一个对象为空
 
 70. 手写一个bind 函数
